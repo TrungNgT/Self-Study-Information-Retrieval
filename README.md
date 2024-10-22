@@ -6,7 +6,7 @@ Gồm các phần: <br/>
 (4) Thực hiện Pet-Project về tìm kiếm thông tin ngữ nghĩa về tình trạng sức khỏe<br/>
 <hr/>
 Tài liệu môn học:<br/>
-[0]. Slide môn học IT4863 - SOICT - HUST
+[0]. Slide môn học IT4863 - SOICT - HUST<br/>
 [1]. An Introduction to Information Retrieval
 <hr/>
-<hr/>
+
