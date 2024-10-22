@@ -10,3 +10,4 @@ Tài liệu môn học:<br/>
 [1]. An Introduction to Information Retrieval
 <hr/>
 
+# 0. Ngày 22/10/2024 (Elasticsearch) Client setup

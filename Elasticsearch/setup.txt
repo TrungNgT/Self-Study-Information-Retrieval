@@ -1,0 +1,20 @@
+1. Cài đặt và unzip elasticsearch-8.15.2
+2. cmd > bin\elasticsearch.bat
+3. Chú ý lưu lại password, token, CA.
+    Có thể check user và password ở địa chỉ https://localhost:9200
+    mỗi token có hiệu lực 30p, dùng để chấp nhận kết nối kibana hoặc 1 node khác tới server của elasticsearch đang được start.
+
+3. Cài đặt và unzip kibana
+4. cmd > bin\kibana
+5. Nhập token được sinh khi run elasticsearch lần đầu vào để thực hiện xác thực.
+    Chú ý token chỉ sinh ra command trong lần đầu start elasticsearch server, và chỉ có hiệu lực 30p
+    Hết hạn hoặc làm mất token lần đầu thì có thể create mới:
+    
+    (elasticsearch) > bin\elasticsearch-create-enrollment-token -s kibana
+
+    chú ý các optional ở command này, xem thêm ở: https://www.elastic.co/guide/en/elasticsearch/reference/current/create-enrollment-token.html
+
+
+
+6. Cài đặt elasticsearch client:
+
