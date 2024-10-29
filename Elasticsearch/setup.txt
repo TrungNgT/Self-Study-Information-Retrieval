@@ -17,4 +17,13 @@
 
 
 6. Cài đặt elasticsearch client:
+    https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/getting-started-js.html#_connecting
 
+
+7*. để đọc được object data from .json file thì cần chú ý thêm "type": "module" vào trong package.json
+    https://stackoverflow.com/questions/62488898/node-js-syntaxerror-cannot-use-import-statement-outside-a-module
+
+8. Chú ý thoát veryfied TLS, https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/changelog-client.html
+
+9. Index document như trong tài liệu, test = kibana oke.
+https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/getting-started-js.html
