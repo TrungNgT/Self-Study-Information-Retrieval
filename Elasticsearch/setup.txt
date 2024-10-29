@@ -27,3 +27,5 @@
 
 9. Index document như trong tài liệu, test = kibana oke.
 https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/getting-started-js.html
+
+10. Thử tách riêng client và indexing ra 2 file .js khác nhau

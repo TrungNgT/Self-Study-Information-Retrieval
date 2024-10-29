@@ -26,19 +26,8 @@ const client = new Client({
   }
 })
 
-client.info().then(console.log, console.log)
+//client.info().then(console.log, console.log)
 
 //await client.indices.create({ index: 'semantic_search' })
 
-import data from './documents.json' assert { type: 'json' };
-
-const numb = data.length
-
-for (let i = 0; i < numb; i++) {
-    const doc = data[i]
-    console.log(doc["title"])
-    await client.index({
-      index: 'semantic_search',
-      document: doc
-    })
-}
+export default client;
