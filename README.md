@@ -11,3 +11,6 @@ Tài liệu môn học:<br/>
 <hr/>
 
 # 0. Ngày 22/10/2024 (Elasticsearch) Client setup
+- Thành phần [client.js](Elasticsearch/client.js) giúp giao tiếp từ client tới server (owned cluster) của Elasticsearch, cổng 9200, authorize bằng username và password, né TLS verifier.
+- Tạo chỉ mục (index) và nạp văn bản (đánh chỉ mục tự động) trong tập [index](Elasticsearch/index/)
+<hr/>
