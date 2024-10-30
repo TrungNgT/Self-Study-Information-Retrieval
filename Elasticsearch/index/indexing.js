@@ -1,5 +1,5 @@
-import data from './elastic_bulk_health_articles.json' assert { type: 'json' };
-import client from './client.js';
+import data from '../elastic_bulk_health_articles.json' assert { type: 'json' };
+import client from '../client.js';
 
 await client.indices.create({ index: "more_doc" });
 
