@@ -9,7 +9,7 @@ const AND_2_list = () => {
     var i = 0;
     var j = 0;
     
-    while (i != la || j != lb) {
+    while (i != la && j != lb) {
         if (La[i] == Lb[j]) {
             res.push(La[i]);
             i++;
@@ -54,4 +54,4 @@ const OR_2_list = () => {
 
 // OR_2_list();
 
-// AND_2_list();
+AND_2_list();
